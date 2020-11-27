@@ -18,7 +18,7 @@ public class CityListTest {
     }
 
     @Test
-    void testAdd() {
+    public void testAdd() {
         CityList cityList = mockCityList();
         assertEquals(1, cityList.getCities().size());
 
@@ -30,7 +30,7 @@ public class CityListTest {
     }
 
     @Test
-    void testAddException() {
+    public void testAddException() {
         CityList cityList = mockCityList();
         City city = new City("Guelph", "Ontario");
         cityList.add(city);
@@ -41,7 +41,7 @@ public class CityListTest {
     }
 
     @Test
-    void testGetCities() {
+    public void testGetCities() {
         CityList cityList = mockCityList();
         assertEquals(0, mockCity().compareTo(cityList.getCities().get(0)));
 
@@ -53,7 +53,7 @@ public class CityListTest {
     }
 
     @Test
-    void testHasCity() {
+    public void testHasCity() {
         CityList cityList = mockCityList();
         City city = new City("Airdrie", "Alberta");
         cityList.add(city);
@@ -66,7 +66,7 @@ public class CityListTest {
     }
 
     @Test
-    void testDeleteCity() {
+    public void testDeleteCity() {
         CityList cityList = mockCityList();
         City city = new City("Airdrie", "Alberta");
         cityList.add(city);
@@ -80,7 +80,7 @@ public class CityListTest {
     }
 
     @Test
-    void testCountCities() {
+    public void testCountCities() {
         CityList cityList = mockCityList();
         assertEquals(1, cityList.countCities());
         City city = new City("Airdrie", "Alberta");
