@@ -1,6 +1,5 @@
-[![Actions Status](https://github.com/CMPUT301F20T04/BookAtMeNow/workflows/Build/badge.svg)](https://github.com/CMPUT301F20T04/BookAtMeNow/actions)
+# Book At Me Now! [![Actions Status](https://github.com/CMPUT301F20T04/BookAtMeNow/workflows/Build/badge.svg)](https://github.com/CMPUT301F20T04/BookAtMeNow/actions)
 
-# Book At Me Now!
 
 ## TEAM 04 Course Project for CMPUT301
 
