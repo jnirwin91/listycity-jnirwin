@@ -4,7 +4,7 @@
 
 ## TEAM 04 Course Project for CMPUT301
 
-Book At Me Now is an android application that allows users to maintain a personal library of books that can be borrowed by other users or to borrow books from other users themselves.
+Book At Me Now is an android application that allows users to maintain a personal library of books that can be borrowed by other users or to borrow books from other users themselves. 😎
 
 
 ## Screenshots
